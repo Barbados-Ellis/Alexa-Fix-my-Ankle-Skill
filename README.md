@@ -1,4 +1,4 @@
-The objective of this project is to provide an Alexa skill which aids in the recovery of patients ages 18-40 years from the OPS clinic who have injured their ankle to the point where surgery was necessary. We have put in the necessary research to provide each patient with the most tailor-made experience possible along their journey back to maximum body function. JEZSA aims to first launch this application on the Amazon Alexa platform, providing patients with a user-friendly interface i.e., an “exercise companion”. 
+The objective of this project is to provide an Alexa skill which aids in the recovery of patients ages 18-40 years from the fictional OPS clinic who have injured their ankle to the point where surgery was necessary. The aim is to provide each patient with a tailor-made experience along their journey back to maximum body function; providing patients with a user-friendly interface i.e., an “exercise companion”. 
 
 
 NOTE: Before trying to host/ test the skill you must note the following:
