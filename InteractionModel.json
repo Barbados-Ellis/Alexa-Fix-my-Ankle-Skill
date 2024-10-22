@@ -1,0 +1,216 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "fix my ankle",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "GetEquipmentIntent",
+                    "slots": [
+                        {
+                            "name": "exercise",
+                            "type": "exercise"
+                        }
+                    ],
+                    "samples": [
+                        "i what do i need for {exercise}"
+                    ]
+                },
+                {
+                    "name": "PlayVideoIntent",
+                    "slots": [
+                        {
+                            "name": "videoNumber",
+                            "type": "videoNumber"
+                        },
+                        {
+                            "name": "exercise",
+                            "type": "exercise"
+                        }
+                    ],
+                    "samples": [
+                        "Play video {videoNumber}",
+                        "Play demo video {videoNumber} "
+                    ]
+                },
+                {
+                    "name": "AskLevelIntent",
+                    "slots": [
+                        {
+                            "name": "exerciseLevel",
+                            "type": "exerciseLevel"
+                        }
+                    ],
+                    "samples": [
+                        "{exerciseLevel} is my level",
+                        "i am a {exerciseLevel}",
+                        "i am {exerciseLevel}",
+                        "i am {exerciseLevel} level "
+                    ]
+                },
+                {
+                    "name": "GetExerciseIntent",
+                    "slots": [
+                        {
+                            "name": "exercise",
+                            "type": "exercise"
+                        }
+                    ],
+                    "samples": [
+                        "i want to do {exercise}",
+                        "{exercise}"
+                    ]
+                },
+                {
+                    "name": "AMAZON.PauseIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ResumeIntent",
+                    "samples": []
+                }
+            ],
+            "types": [
+                {
+                    "name": "exercise",
+                    "values": [
+                        {
+                            "id": "RROM",
+                            "name": {
+                                "value": "resisted range of motion",
+                                "synonyms": [
+                                    "banded range of motion"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "SU",
+                            "name": {
+                                "value": "step up",
+                                "synonyms": [
+                                    "step",
+                                    "step up"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "SCS",
+                            "name": {
+                                "value": "standing calf stretch",
+                                "synonyms": [
+                                    "calf stretch"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "JR",
+                            "name": {
+                                "value": "jump rope",
+                                "synonyms": [
+                                    "rope",
+                                    "skipping rope",
+                                    "skipping"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "exerciseLevel",
+                    "values": [
+                        {
+                            "id": "INT",
+                            "name": {
+                                "value": "intermediate",
+                                "synonyms": [
+                                    "average"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "BEG",
+                            "name": {
+                                "value": "beginner",
+                                "synonyms": [
+                                    "easy",
+                                    "newbie",
+                                    "noob"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "ADD",
+                            "name": {
+                                "value": "advanced",
+                                "synonyms": [
+                                    "difficult",
+                                    "experienced"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "videoNumber",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "4",
+                                "synonyms": [
+                                    "four",
+                                    "fourth"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "3",
+                                "synonyms": [
+                                    "three",
+                                    "third"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "2",
+                                "synonyms": [
+                                    "two",
+                                    "second"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "1",
+                                "synonyms": [
+                                    "one",
+                                    "first"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
